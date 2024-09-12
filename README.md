@@ -29,3 +29,43 @@ Customer churn prediction is critical for businesses to retain valuable customer
    ```bash
    git clone https://github.com/your-username/ann-classification.git
    cd ann-classification
+Create a virtual environment and activate it:
+
+bash
+Copy code
+conda create --name churn_env python=3.11
+conda activate churn_env
+Install the required libraries:
+
+bash
+Copy code
+pip install -r requirements.txt
+Running the Model
+Train the model:
+
+bash
+Copy code
+python train_model.py
+Visualize training using TensorBoard:
+
+bash
+Copy code
+tensorboard --logdir=logs/train
+Run the Streamlit app:
+
+bash
+Copy code
+streamlit run app.py
+Deployment
+The application is deployed on Streamlit Cloud and can be accessed via the link below:
+
+🔗 Live App: https://ann-classification-rh3pyyyk68atjg5rpjqlow.streamlit.app/
+
+Acknowledgments
+This project is part of the Udemy course "Complete Generative AI Course with LangChain and Hugging Face." Special thanks to the instructors for their guidance!
+
+License
+This project is licensed under the MIT License.
+
+Contact
+For any questions or feedback, feel free to reach out via LinkedIn or GitHub!
